@@ -7,7 +7,7 @@ class Ticked: #Modelo ticked
     id:int = None
     nombre:str = None
     fecha:str = None
-    prioridad:int = None
+    prioridad:str = None
     #Constructor
     def __init__(self, id, nombre, fecha, prioridad):
         self.id = id

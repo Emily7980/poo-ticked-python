@@ -1,5 +1,4 @@
 #Emily Torres
-
 from administrar_ticked import AdministrarTicked
 def menu():
     print('==================')
@@ -15,7 +14,7 @@ def menu():
     print('6. Salir')
     print('==================')
 def principal():
-    administrador = AdministrarTicked
+    administrador = AdministrarTicked()
     while True:
         menu()
         opcion = input('Por favor ingrese una opción: ')
